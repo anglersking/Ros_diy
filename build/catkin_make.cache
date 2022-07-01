@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+topic_test
+=======
+<<<<<<< HEAD
+topic_test
+=======
+topic_test:usb_cam
+>>>>>>> cpp_py_topic_update
+>>>>>>> “add_py_sub_pub”
+-DCATKIN_DEVEL_PREFIX=/home/yu/Ros_diy/devel -DCMAKE_INSTALL_PREFIX=/home/yu/Ros_diy/install -G Unix Makefiles

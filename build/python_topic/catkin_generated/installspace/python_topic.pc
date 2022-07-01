@@ -1,0 +1,8 @@
+prefix=/home/yu/Ros_diy/install
+
+Name: python_topic
+Description: Description of python_topic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
