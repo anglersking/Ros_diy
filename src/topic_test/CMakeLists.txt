@@ -52,13 +52,7 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
    Message.msg
    Num.msg
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
    StringMessage.msg
->>>>>>> cpp_py_topic_update
->>>>>>> “add_py_sub_pub”
  )
 
 ## Generate services in the 'srv' folder
@@ -133,17 +127,12 @@ target_link_libraries(talker ${catkin_LIBRARIES})
 
 add_executable(listener src/listener.cpp)
 target_link_libraries(listener ${catkin_LIBRARIES})
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
 catkin_install_python(PROGRAMS  scripts/tal.py scripts/lis.py
        DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
->>>>>>> cpp_py_topic_update
->>>>>>> “add_py_sub_pub”
+
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/topic_test.cpp
@@ -190,23 +179,17 @@ add_dependencies(add_tow_ints_client topic_test_gencpp)
 
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> “add_py_sub_pub”
+
 # catkin_install_python(PROGRAMS
 #   scripts/my_python_script
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
 
-<<<<<<< HEAD
-=======
-=======
+
 #catkin_install_python(PROGRAMS  scripts/talker.py scripts/listener.py
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
->>>>>>> cpp_py_topic_update
->>>>>>> “add_py_sub_pub”
+
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html
 # install(TARGETS ${PROJECT_NAME}_node
